@@ -1,0 +1,25 @@
+body{
+  margin: 0 auto;
+}
+
+.header{
+  background-color: #be3144;
+  
+}
+
+.nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul,
+a,
+li{
+  text-decoration: none;
+  gap: 1px;
+  padding: 10px;
+  text-align: right;
+  font-size: 20px;
+  display: flex;
+  color: #fff;
+}
