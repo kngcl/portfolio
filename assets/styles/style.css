@@ -28,7 +28,7 @@ li{
 }
 
 /* about */
-.main{
+#main{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,34 +53,50 @@ p{
 }
 
 /* work */
-.work{
+h2{
+  font-size: 50px;
+  color: #fff;
+}
+
+hr{
+  margin-top:-30px ;
+  max-width: 0 auto 0 auto;
+  width: 600px;
+  justify-items: center;
+}
+
+#work{
+  padding: 12px;
   background-color: #45567d;
   display: flex;
-  flex-direction: column;
   text-align: center;
- }
+  flex-direction: column;
+}
+
 
 .figure{
   display: flex;
   flex-wrap: wrap;
-  flex: 1 1 160px;
-  
-  /* display: grid;
-  text-align: center;
+  flex: 0 0 215px;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 4rem;
-  width: 100%;
-  max-width: 1290px;
-  margin-bottom: 6rem;
-  line-break: loose; */
 }
 
-img{
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-  box-shadow: 1px 2px 5px black;
+figcaption{
+  background-color: #181719;
+  display: flex;
+  margin-top: -6px;
+  padding: 20px;
 }
+
+
+img{
+  width: 360px;
+  height: 300px;
+  object-fit: cover;
+  border-spacing: -100px;
+  
+}
+
+
 
 
