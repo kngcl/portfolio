@@ -1,21 +1,21 @@
-body{
+body {
   margin: 0 auto;
 }
 
-.header{
+.header {
   background-color: #be3144;
   position: fixed;
   width: 100%;
 }
 
-.nav{
+.nav {
   display: flex;
   justify-content: flex-end;
 }
 
 .ul,
 .a,
-.li{
+.li {
   text-decoration: none;
   gap: 25px;
   padding: 2px;
@@ -28,7 +28,7 @@ body{
 }
 
 /* about */
-#main{
+#main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,47 +42,47 @@ body{
   line-height: 1px;
 }
 
-h1{
+h1 {
 font-size:70px;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.p-main{
+.p-main {
   color: #be3144;
   font-family: 'Courier New', Courier, monospace;
 }
 
 /* work */
-h2{
+h2 {
   font-size: 50px;
   color: #fff;
 }
 
-hr{
+hr {
   margin-top:-30px ;
   max-width: 0 auto 0 auto;
   width: 600px;
   justify-items: center;
 }
 
-#work{
+#work {
   background-color: #45567d;
   display: flex;
   text-align: center;
   flex-direction: column;
 }
 
-.figure{
+.figure {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-figure{
+figure {
   margin: 10px 10px 10px 10px;
 }
 
-figcaption{
+figcaption {
   background-color: #181719;
   margin-top: -6px;
   padding: 30px;
@@ -92,11 +92,11 @@ figcaption{
   font-size: large;
 }
 
-.a1{
+.a1 {
   text-decoration: none;
 }
 
-button{
+button {
   background-color:  #181719;
   padding: 12px;
   color: #fff;
@@ -104,14 +104,14 @@ button{
   margin-bottom: 100px;
 }
 
-img{
+img {
   width: 390px;
   height: 370px;
   object-fit: cover;
 }
 
 /* contact */
-#contact{
+#contact {
   background-color: #303841;
   color: #fff;
   height: 90vh;
@@ -121,41 +121,42 @@ img{
   text-align: center;
 }
 
-h3{
+h3 {
 font-size: 70px;
 line-height: 1px;
 }
 
-.footer{
+.footer {
 
   padding-bottom: 50px;
 }
 
-.footer-para{
+.footer-para {
   font-size: 15px;
   line-height: 10px;
 }
 
-.footer-link{
+.footer-link {
 color: #fff;
 text-decoration: none;
 flex-wrap: wrap;
 padding: 1rem 2rem;
 font-size: 30px;
 }
-.hr-footer{
+
+.hr-footer {
   width: 100%;
   border: 1px solid #be3144;
    
 }
 
-.footer-footer{
+.footer-footer {
    background-color: #303841;
   color: #fff;
   justify-content: space-evenly;
 }
 
-.end-footer{
+.end-footer {
   display: flex;
   justify-content: space-evenly;
 }
