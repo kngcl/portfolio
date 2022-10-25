@@ -43,8 +43,8 @@ body {
 }
 
 h1 {
-font-size:70px;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:70px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .p-main {
@@ -122,8 +122,8 @@ img {
 }
 
 h3 {
-font-size: 70px;
-line-height: 1px;
+  font-size: 70px;
+  line-height: 1px;
 }
 
 .footer {
@@ -137,11 +137,11 @@ line-height: 1px;
 }
 
 .footer-link {
-color: #fff;
-text-decoration: none;
-flex-wrap: wrap;
-padding: 1rem 2rem;
-font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  font-size: 30px;
 }
 
 .hr-footer {
@@ -151,7 +151,7 @@ font-size: 30px;
 }
 
 .footer-footer {
-   background-color: #303841;
+  background-color: #303841;
   color: #fff;
   justify-content: space-evenly;
 }
