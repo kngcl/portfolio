@@ -95,6 +95,7 @@ figcaption{
 .a1{
   text-decoration: none;
 }
+
 button{
   background-color:  #181719;
   padding: 12px;
@@ -157,5 +158,4 @@ font-size: 30px;
 .end-footer{
   display: flex;
   justify-content: space-evenly;
-
- }
+}
