@@ -44,12 +44,11 @@ body {
 
 h1 {
   font-size: 3rem;
-  font-family: lobster;
 }
 
 .p-about {
   color: #be3144;
-  font-family: "roboto";
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /* work */
@@ -164,4 +163,5 @@ h3 {
   display: flex;
   justify-content: space-evenly;
 }
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); 
+
+@import "'https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'";
