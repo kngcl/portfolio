@@ -98,9 +98,9 @@ figcaption {
   text-decoration: none;
 }
 
-button {
+.button {
   background-color: #181719;
-  padding: 20px;
+  padding: 9px;
   color: #fff;
   border-collapse: collapse;
   font-size: 20px;
